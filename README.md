@@ -18,7 +18,14 @@ This project implements a real-time adaptive noise reduction system using MATLAB
 - DSP System Toolbox
 - Communications Toolbox
 
-## Screenshots
-![GUI](screenshots/gui.png)
+## Comparison with Existing Methods
+
+| Criteria               | Our Work | LMS-Based | NLMS Only | Wavelet-Wiener |
+|------------------------|----------|-----------|-----------|----------------|
+| Real-time Processing   | ✅ Yes   | ❌ No     | ❌ No     | ❌ No          |
+| SNR Improvement        | ✅ High  | Medium    | Medium    | High           |
+| GUI Visuals            | ✅ Full  | Basic     | ❌        | ❌             |
+| Modular Design         | ✅ Yes   | ❌        | ❌        | ❌             |
+
 
 ## ⚠️ The source code is not publicly available in this repository. If you're interested in collaboration or academic reference, please contact me via email or GitHub Discussions.
